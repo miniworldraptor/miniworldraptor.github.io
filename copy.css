@@ -1,0 +1,788 @@
+.Gloria_Hallelujah {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Fonts */
+@media (min-width: 1424px) {
+  a {
+    text-decoration: none;
+    color: #fff2dd;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  body {
+    background-color: #fff2dd;
+    margin: 0px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+
+  .upper-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2dd;
+    margin: 20px;
+  }
+
+  .p-upper-bar2 {
+    color: #ddb080;
+    align-self: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #7c8379;
+    padding: 20px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navbar-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* Center */
+
+  .main-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+    padding: 70px 10% 60px;
+  }
+
+  .section-container,
+  .section-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-container2 {
+    order: 4;
+  }
+
+  .img-container2 {
+    order: 3;
+  }
+
+  .section-card-title-desc,
+  .section-card-title-desc2 {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-extra-desc-p {
+    margin-right: 50px;
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .section-card-extra-desc-p2 {
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .img-center-1,
+  .img-center-2 {
+    margin-top: 20px;
+  }
+
+  .img-center-2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .map-center {
+    height: 600px;
+    width: 1000px;
+    margin: 20px;
+    margin-left: 400px;
+  }
+
+  /* Footer */
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62685f;
+  }
+
+  .footer-openlist {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+
+  .footer-contact-location {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Attic_Antique_Italic.otf";
+  }
+
+  .footer-logo-insta-face {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px;
+  }
+}
+
+/* MEDIA TABLETS */
+
+@media (min-width: 768px) and (max-width: 1424px) {
+  a {
+    text-decoration: none;
+    color: #fff2dd;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  body {
+    background-color: #fff2dd;
+    margin: 0px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+
+  .upper-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2dd;
+    margin: 20px;
+  }
+
+  .p-upper-bar2 {
+    color: #ddb080;
+    align-self: center;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #7c8379;
+    padding: 20px;
+  }
+
+  .navbar-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+
+  /* Center */
+
+  .main-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    height: auto;
+  }
+
+  .section-container2 {
+    order: 3;
+  }
+
+  .imag-container2 {
+    order: 4;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-title-desc,
+  .section-card-title-desc2 {
+    margin: 10px 40px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-extra-desc-p {
+    margin-right: 50px;
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .section-card-extra-desc-p2 {
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .img-center-1,
+  .img-center-2 {
+    margin-top: 20px;
+  }
+
+  .map-center {
+  }
+
+  /* Footer */
+
+  footer {
+    height: 200px;
+    background-color: #7c8379;
+  }
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62685f;
+  }
+
+  .footer-openlist {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+
+  .footer-contact-location {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Attic_Antique_Italic.otf";
+  }
+
+  .footer-logo-insta-face {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px;
+  }
+}
+
+/* MEDIA TABLETS-SMALLER */
+
+@media (min-width: 736.7px) and (max-width: 1024px) and (orientation: landscape) {
+  a {
+    text-decoration: none;
+    color: #fff2dd;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  body {
+    background-color: #fff2dd;
+    margin: 0px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+
+  .upper-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2dd;
+    margin: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #7c8379;
+    padding: 20px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navbar-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+
+  /* Center */
+
+  .main-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+
+  .section-container2 {
+    order: 3;
+  }
+
+  .imag-container2 {
+    order: 4;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-title-desc,
+  .section-card-title-desc2 {
+    margin: 10px 40px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-extra-desc-p {
+    margin-right: 50px;
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .section-card-extra-desc-p2 {
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .img-center-1,
+  .img-center-2 {
+    margin-top: 20px;
+  }
+  /* Footer */
+
+  footer {
+    height: 200px;
+    background-color: #7c8379;
+  }
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62685f;
+  }
+
+  .footer-openlist {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+
+  .footer-contact-location {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Attic_Antique_Italic.otf";
+  }
+
+  .footer-logo-insta-face {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px;
+  }
+}
+
+/* PHONES */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  a {
+    text-decoration: none;
+    color: #fff2dd;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  body {
+    background-color: #fff2dd;
+    margin: 0px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+
+  .upper-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2dd;
+    margin: 20px;
+  }
+
+  .p-upper-bar2 {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #7c8379;
+    padding: 20px;
+  }
+  /*ham*/
+  .links-container {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    height: 500px;
+    background-color: #62685f;
+    transition: 0.75s ease-out;
+  }
+
+  .links-ham {
+    font-size: 20px;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  nav svg {
+    fill: #ddb080;
+  }
+  nav a {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+  }
+
+  .open-sidebar-button,
+  .close-sidebar-button {
+    display: block;
+  }
+
+  #sidebar-active {
+    display: none;
+  }
+
+  #sidebar-active:checked ~ .links-container {
+    right: 0;
+  }
+  /*ham*/
+  .navbar-links {
+    display: none;
+  }
+
+  /* Center */
+
+  .main-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+
+  .section-container2 {
+    order: 3;
+  }
+
+  .imag-container2 {
+    order: 4;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-title-desc,
+  .section-card-title-desc2 {
+    margin: 10px 40px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-extra-desc-p {
+    margin-right: 50px;
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .section-card-extra-desc-p2 {
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+  }
+
+  .img-center-1,
+  .img-center-2 {
+    margin-top: 20px;
+  }
+  /* Footer */
+
+  footer {
+    height: 200px;
+    background-color: #7c8379;
+  }
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62685f;
+  }
+
+  .footer-openlist {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+
+  .footer-contact-location {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Attic_Antique_Italic.otf";
+  }
+
+  .footer-logo-insta-face {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 10px;
+  }
+}
+
+/* PHONE-SMALLER */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  a {
+    text-decoration: none;
+    color: #fff2dd;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  body {
+    background-color: #fff2dd;
+    margin: 0px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+  }
+
+  .upper-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2dd;
+    margin: 20px;
+  }
+
+  .p-upper-bar2 {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: #7c8379;
+    padding: 20px;
+  }
+  /*ham*/
+  .links-container {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    height: 500px;
+    background-color: #62685f;
+    transition: 0.75s ease-out;
+  }
+
+  .links-ham {
+    font-size: 20px;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  nav svg {
+    fill: #ddb080;
+  }
+  nav a {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+  }
+
+  .open-sidebar-button,
+  .close-sidebar-button {
+    display: block;
+  }
+
+  #sidebar-active {
+    display: none;
+  }
+
+  #sidebar-active:checked ~ .links-container {
+    right: 0;
+  }
+  /*ham*/
+  .navbar-links {
+    display: none;
+  }
+
+  /* Center */
+
+  .main-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    max-width: 412px;
+  }
+
+  .section-container2 {
+    order: 3;
+  }
+
+  .imag-container2 {
+    order: 4;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-title-desc,
+  .section-card-title-desc2 {
+    margin: 10px 20px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-card-extra-desc-p {
+    margin-right: 50px;
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .section-card-extra-desc-p2 {
+    background-color: #7c8379;
+    color: #ddb080;
+    font-family: "Gloria Hallelujah", cursive;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .img-center-1,
+  .img-center-2 {
+    max-width: 300;
+    max-height: 230px;
+    margin: 10px;
+  }
+
+  .img-center-2 {
+    margin-top: 10px;
+  }
+  /* Footer */
+
+  footer {
+    height: 200px;
+    width: auto;
+    background-color: #7c8379;
+  }
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62685f;
+  }
+
+  .footer-openlist {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+
+  .footer-contact-location {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: "Attic_Antique_Italic.otf";
+  }
+
+  .footer-logo-insta-face {
+    display: none;
+  }
+}
